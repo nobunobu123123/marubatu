@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>○✖ゲーム</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+
+    <div class= "wrapper flex">
+        <ul id="map">
+            <div  class="flex">
+                <li class="a_point"></li>
+                <li class="a_point"></li>
+                <li class="a_point"></li>
+            </div>
+            <div  class="flex">
+                <li class="a_point"></li>
+                <li class="a_point"></li>
+                <li class="a_point"></li>
+            </div>
+            <div  class="flex">
+                <li class="a_point"></li>
+                <li class="a_point"></li>
+                <li class="a_point"></li>
+            </div>
+        </ul>
+
+        <div id="right_side">
+            <h1>相手</h1>
+            <form id="enemies">
+                <input  type="radio" name="enemy" checked="checked" value="Player2">Player2
+                <input  type="radio" name="enemy" value="弱いCPU">弱いCPU
+                <input  type="radio" name="enemy" value="絶対に負けないCPU">絶対に負けないCPU
+            </form>
+            <ul class="flex">
+                <li id="1_first">先攻</li>
+                <li>〇　Player1</li>
+                <li id="2_first">後攻</li>
+                <li id="enemy_name">☓　Player2</li>
+            </ul>
+            <ul class="flex scores">
+                <li>勝利数</li>
+                <li id="1_score">0</li>
+                <li>vs</li>
+                <li id="2_score">0</li>
+            </ul>
+            <p id="show_win"></p>
+            <button type="button" id="reset" style="color: orangered;">Start Game</button>
+        </div>
+        
+    </div>
+    
+
+
+  <script src="main.js"></script>
+</body>
+</html>
