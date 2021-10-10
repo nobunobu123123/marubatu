@@ -1,0 +1,35 @@
+ol, ul {
+    list-style-type: none;
+  }
+
+.flex{
+    display: flex;
+}  
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#show_win{
+    top: calc(100vh);
+    text-align: center;
+    font-size: 30px;
+    color:orangered;
+}
+
+.a_point{
+    height: calc((100vh - 100px) / 3);
+    width: calc((100vh - 100px) / 3);
+    background-color: grey;
+    border: black 1px solid;
+    text-align: center;
+    font-size: calc((100vh - 400px) / 3);
+    line-height: calc((100vh - 100px) / 3);
+}
+
+#right_side{
+    text-align: center;
+    width: 100%;
+}
